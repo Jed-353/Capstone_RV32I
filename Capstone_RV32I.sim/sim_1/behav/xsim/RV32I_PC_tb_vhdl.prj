@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Documents/School docs/RV32I_Capstone/src/new/RV32I_PC.vhd" \
+"../../../../Capstone_RV32I.srcs/sim_1/new/RV32I_PC_tb.vhd" \
+
+# Do not sort compile order
+nosort
